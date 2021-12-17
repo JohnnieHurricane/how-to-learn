@@ -41,18 +41,17 @@
 
 .header__title {
   width: 730px;
-  min-height: 96px;
+  line-height: 96px;
   font-size: 102px;
   font-weight: bolder;
   display: block;
   flex-wrap:wrap;
-  margin: auto 64px;
   z-index: 1;
-
+  margin-left: 64px;
 }
 .header__subtitle {
   width: 388px;
-  min-height: 25px;
+  line-height: 25px;
   display: block;
   margin-bottom: 30px;
   margin-left: 64px;
@@ -62,7 +61,6 @@
   font-size: 18px;
   font-style: normal;
   flex-wrap:wrap;
-  box-sizing: content-box;
   z-index: 1;
 }
 
@@ -88,6 +86,74 @@ right: 0;
   top: 64px;
   z-index: -1;
 }
+
+.two-columns {
+  display: flex;
+  margin: 100px auto;
+  justify-content: space-between;
+  align-items:stretch;
+  width: 80%;
+  min-height: auto;
+}
+
+.two-columns__brief {
+   width: 175px;
+  color: #2f80ed;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  display: block;
+}
+
+.two-column__main-text {
+  width: 80%;
+  min-width: 784px;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.two-columns__paragraph {
+  list-style-type: none;
+}
+
+.two-columns__span-accent {
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {

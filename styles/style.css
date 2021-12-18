@@ -202,9 +202,9 @@ font-weight: normal;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  height: 100%;
-  max-width: 1600px;
+  height: 890px;
   background: #f2f2f2 url("../images/feynman.png") no-repeat left bottom;
+  background-size: 867px 637px;
   /*border: #a7a7a7 2px solid;
   box-sizing:border-box;*/
   margin: 0 auto;

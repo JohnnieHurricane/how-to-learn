@@ -33,7 +33,7 @@
   width: 730px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold;  
+  font-weight: bold;
   z-index: 2;
   margin-left: 64px;
 }
@@ -59,7 +59,7 @@
 .header__main-illustration {
 width: 765px;
 height: 608px;
-display: block; 
+display: block;
 position: absolute;
 bottom: 0;
 right: 0;
@@ -95,7 +95,7 @@ z-index: 1;
   }
 
 .two-columns__brief {
-   width: 175px; 
+   width: 175px;
   color: #2f80ed;
   font-size: 18px;
   font-weight: normal;
@@ -131,7 +131,6 @@ z-index: 1;
 }
 
 .digits {
-margin: 0;
 display: flex;
 justify-content: center;
 margin: 100px auto;
@@ -204,7 +203,7 @@ margin: 20px 0 0 0;
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 .feynman__subtitle {

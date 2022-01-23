@@ -5,8 +5,9 @@
     align-items: center;
     justify-content: flex-start;
     min-height: 890px;
-    background: #f2f2f2 url("../images/feynman.png") no-repeat left bottom;
+    background: #f2f2f2 url("/images/feynman.png") no-repeat left bottom;
     background-size: 867px 637px;
     margin: 0 auto;
     padding: 100px 0 0 0;
+    max-width: 1600px;
   }
